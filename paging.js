@@ -5,7 +5,6 @@ var pageCount;
 var url;
 
 //使用者需要初始化的一个方法，包含三个参数，数据的url，总页数，每次展示的页数。
-init("http://localhost:7574/api/NewsList/GetNews", 30, 5);
 function init (url,pageAmount,pageCount) {
 	 this.pageAmount=pageAmount;
 	 this.pageCount=pageCount;
